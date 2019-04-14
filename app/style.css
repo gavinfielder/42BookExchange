@@ -1,0 +1,200 @@
+body {
+	background-color: #f2e7de;
+}
+
+#site_header_img {
+	width: 500px;
+}
+
+#sidebar {
+	background-color: #f9e79f;
+	margin: 4px 4px 4px 4px;
+	padding: 0 10px 5px 10px;
+	border: 3px solid;
+	border-color: #784212;
+	width: 10%;
+	min-width: 200px;
+	max-width: 400px;
+	height: auto;
+	float: right;
+	position: relative;
+	display: block;
+}
+.flex_container {
+  display:flex;
+  flex-direction:column;
+}
+
+.individual{
+	border:2px 	#FFDAB9 solid;
+	margin:10px;
+	background:	#FFDAB9;
+	border-radius:5px;
+}
+
+#navbar {
+	background-color: #c8946f;
+	margin: 4px 4px 4px 4px;
+	width: 99%;
+	height: auto;
+	position: relative;
+	display: inline-block;
+}
+
+#navbar button {
+	display: inline-block;
+	height: 35px;
+	font-size: 16px;
+	margin: 10px 2px 10px 2px;
+	font-family: georgia;
+	border: 1px solid #715528;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+	font-weight: bold;
+	font-style: italic;
+	background-color: #d8ac64;
+}
+
+#admin_user_table {
+	border: 1px solid black;
+}
+
+#copyright_text {
+	font-family: monospace;
+	font-style: italic;
+	float: right;
+}
+
+td {
+	border: 1px solid black;
+}
+
+.listing {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	/* background-color: #F9E79F; */
+	background-color: #e4ecac;
+	border: solid black 1px;
+}
+
+.add_entry label {
+
+}
+
+.add_entry input[type=text] {
+	width: 70%;
+}
+
+.add_entry input[type=submit] {
+	display: button;
+	width: 50px;
+	height: 25px;
+}
+
+.listing .thumb {
+	display: inline-block;
+	float: right;
+	border: 1px black solid;
+	margin: 5px 5px 10px 5px;
+	max-width:100px;
+	min-width:100px;
+	height: auto;
+	max-height: 200px;
+}
+
+.listing .name {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.listing .name_label {
+	
+}
+
+.listing .description_label {
+	text-decoration: underline;
+}
+
+.listing .description {
+	display: block;
+	min-width: 300px;
+}
+
+.listing .pub_year {
+
+}
+
+.listing .owner_label {
+
+}
+
+.listing .owner {
+	font-family: arial;
+	font-weight: bold;
+}
+
+.listing .price_label {
+
+}
+
+.listing .price {
+	font-weight: bold;
+}
+
+.listing .tags_label {
+	font-size: 12px;
+}
+
+
+.listing .tags {
+	font-style: italic;
+}
+
+.listing .control {
+
+}
+
+.listing .date {
+	font-size: 12px;
+	font-style: italic;
+}
+
+.listing .in_basket_text {
+
+}
+
+.listing .owned_listing {
+
+}
+
+.listing .remove_listing_link {
+
+}
+
+.listing .add_to_basket_link {
+
+}
+
+.basket_item {
+	display: block;
+	margin: 10px 10px 10px 10px;
+	background-color: #F9E79F;
+	border: solid black 1px;
+}
+
+.tagbutton {
+
+}
+
+.account_custom_textbox {
+	width: 50%;
+	height: 200px;
+}
+
+#basket_summary {
+	background-color: #F9E79F;
+	margin: 4px 4px 4px 4px;
+	height: auto;
+	width: auto;
+	position: relative;
+	display: block;
+}
